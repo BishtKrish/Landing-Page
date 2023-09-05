@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(1, 38, 1), rgb(7, 120, 7));
+    height: 100vh;
+
+
+}
+
+.navbar {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: end;
+    height: 50%;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar li a:hover {
+
+    color:  rgb(2, 39, 2);
+}
+
+.act {
+    color:  rgb(1, 28, 1) !important;
+}
+
+.stats {
+    margin-top: 30px;
+    margin-left: 100px;
+    color: #fff;
+}
+
+.container {
+    height: 300px;
+    color: #fff;
+    display: flex;
+    margin-top: 60px;
+
+}
+
+.right {
+    margin-left: 220px;
+    top: 0;
+    margin-top: 40px;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    ;
+    font-size: 70px;
+    text-shadow: 6px 6px 7px gray;
+}
+
+h4 {
+    margin-top: 15px;
+}
+
+h5 {
+    margin-top: 20px;
+}
+
+.image img {
+    width: 70%;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    filter: drop-shadow(5px 5px 6px rgb(86, 192, 86));
+
+}
+
+.right p:hover {
+    color: rgb(16, 237, 16);
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 25px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(16, 185, 16);
+    color: #fff;
+    cursor: pointer;
+    padding: 8px;
+
+
+}
+
+.btn2 {
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 50px;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+.btn2:hover {
+    background-color: rgb(16, 185, 16);
+}
+
+.container2 {
+    width: 100%;
+    height: 500px;
+    margin-top: 140px;
+    display: flex;
+    padding: 12px;
+
+}
+
+.image2 img {
+    height: 450px;
+    width: 340px;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.content {
+    margin-left: 40px;
+
+}
+
+.content h1 {
+    color: #fff;
+    border-bottom: 2px solid gray;
+    width: 60%;
+}
+
+.content h2 {
+    color: #fff;
+    margin-top: 30px;
+    border-bottom: 2px solid gray;
+    width: 100px;
+}
+
+.content h3 {
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-right: 20px;
+
+}
+
+.container3 {
+    width: 100%;
+    height: 440px;
+    margin-top: 30px;
+    display: flex;
+
+}
+
+.hlo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(210, 205, 205);
+    width: 270px;
+}
+
+.image4 img {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.about p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.feat {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 30px;
+    border-bottom: 1px solid rgb(210, 205, 205);
+    width: 405px;
+}
+
+.container4 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.first {
+    width: 45%;
+    border: 2px solid gray;
+    border-radius: 20px;
+    height: 570px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.first img {
+    height: 400px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.first p {
+    color: #fff;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.second {
+    width: 45%;
+    border: 2px solid gray;
+    border-radius: 20px;
+    height: 570px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.second img {
+    height: 400px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.second p {
+    color: #fff;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.container5 {
+    width: 45%;
+    border: 2px solid gray;
+    border-radius: 20px;
+    height: 570px;
+    margin-top: 20px;
+    margin-left: 340px;
+
+}
+
+.container5 img {
+    height: 400px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.container5 p {
+    color: #fff;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.container6 {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.cta {
+    width: 30%;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.cta p {
+    color: yellow;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 2;
+
+}
+
+.cta button {
+    width: 120px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.cta button:hover {
+
+    background-color:  rgb(2, 39, 2);
+    color: #fff;
+}
+
+.cta a {
+    margin-left: 20px;
+}
+
+.jour {
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.jour p {
+    font-size: 30px;
+}
+
+.jour button {
+    width: 120px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.jour button:hover {
+    background-color: rgb(2, 39, 2);
+    color: #fff;
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background-color: rgb(2, 39, 2);
+    color: #fff;
+   
+}
+
+.pic {
+    width: 300px;
+}
+.pic img{
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.footer .pic p {
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+width: 30px;
+    margin-left: 100px;
+  
+}
+
+.left1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 60px;
+
+}
+
+.poli {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.left1 a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.mid1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 30px;
+
+}
+
+.poli {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mid1 a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.cont{
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.icon{
+    margin-top: 20px;
+}
+.icon i{
+    margin-left: 8px;
+    
+}
+.right1{
+    margin-left: 20px;
+}
